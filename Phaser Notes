@@ -1,0 +1,7 @@
+
+// new Phaser.Game [creates new game]
+// 800, 600 [sets resolution for game]
+// Phaser.CANVAS, Phaser.WEBGL, or Phaser.AUTO [the rendering context you want to use; auto is recommended]
+// "" [this is the id of the DOM element in which you would like to insert the canvas element that Phaser creates]
+// 
+var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
